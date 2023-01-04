@@ -56,6 +56,17 @@
         </developer>
     </developers>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>knime-snapshots</id>
+            <url>https://artifactory.knime.com/artifactory/knime-snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>knime-releases</id>
+            <url>https://artifactory.knime.com/artifactory/knime-externals</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
